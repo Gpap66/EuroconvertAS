@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Euroconvert</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="eurolab">euro</string>
+    <string name="dollar">$</string>
+    <string name="pounds">pounds</string>
+    <string name="diaxor">/</string>
+    <string name="apotelesma1"> ss</string>
+    <string name="ettik1">euro/kg</string>
+    <string name="koumpi">Υπολόγισε</string>
+
+</resources>
