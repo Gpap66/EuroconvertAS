@@ -85,7 +85,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-0441471183533165/7725633131"/>
+        ads:adUnitId="ca-app-pub-0441471183533165/7269331938"
+        ads:testDevices="TEST_EMULATOR"/>
 
     <TextView
         android:id="@+id/apotelesmaeurokilo"
