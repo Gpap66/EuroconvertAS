@@ -10,8 +10,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.ads.AdRequest;
-import com.google.ads.AdView;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.gpap.euroconvert.R;
 
 public class Main extends Activity {
@@ -68,7 +68,7 @@ public class Main extends Activity {
         // Look up the AdView as a resource and load a request.
         adView = (AdView) this.findViewById(R.id.adView);
         // layout = (RelativeLayout)findViewById(R.id.ad);
-        adView.loadAd(new AdRequest());
+        //adView.loadAd(new AdRequest());
         // Toast.makeText(this, "telos re",Toast.LENGTH_SHORT).show();
     }
 
