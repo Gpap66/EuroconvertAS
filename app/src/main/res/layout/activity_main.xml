@@ -96,4 +96,25 @@
         android:text="@string/apotelesma1"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moneygas"
+        android:inputType="numberDecimal"
+        android:layout_toEndOf="@+id/money"
+        android:layout_below="@+id/apotelesmaeurokilo"
+        android:layout_toStartOf="@+id/dollarLabel"
+        android:layout_alignStart="@+id/money" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:inputType="numberDecimal"
+        android:layout_toEndOf="@+id/apotelesmaeurokilo"
+        android:layout_toStartOf="@+id/dollarLabel"
+        android:layout_alignBottom="@+id/moneygas"
+        android:layout_alignEnd="@+id/poundsLabel"
+        android:layout_alignStart="@+id/poundsLabel" />
+
 </RelativeLayout>
