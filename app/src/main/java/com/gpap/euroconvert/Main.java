@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -53,7 +54,7 @@ public class Main extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        AdRequest adRequest = new AdRequest.Builder().build();
         Button koump = (Button) findViewById(R.id.koum);
 
 
@@ -67,9 +68,9 @@ public class Main extends Activity {
 
         // Look up the AdView as a resource and load a request.
         adView = (AdView) this.findViewById(R.id.adView);
-        // layout = (RelativeLayout)findViewById(R.id.ad);
-        //adView.loadAd(new AdRequest());
-        // Toast.makeText(this, "telos re",Toast.LENGTH_SHORT).show();
+        //layout = (RelativeLayout)findViewById(R.id.ad);
+        adView.loadAd(adRequest);
+        Toast.makeText(this, "telos re",Toast.LENGTH_SHORT).show();
     }
 
     @Override
