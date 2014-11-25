@@ -106,15 +106,22 @@
         android:layout_toStartOf="@+id/dollarLabel"
         android:layout_alignStart="@+id/money" />
 
-    <EditText
+    <TextView
+        android:id="@+id/Diaxor1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:inputType="numberDecimal"
-        android:layout_toEndOf="@+id/apotelesmaeurokilo"
-        android:layout_toStartOf="@+id/dollarLabel"
+        android:text="@string/diaxor1"
+        android:textSize="16sp"
         android:layout_alignBottom="@+id/moneygas"
-        android:layout_alignEnd="@+id/poundsLabel"
-        android:layout_alignStart="@+id/poundsLabel" />
+        android:layout_alignStart="@+id/koum" />
+
+    <TextView
+        android:id="@+id/doll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dollar"
+        android:textSize="16sp"
+        android:layout_alignTop="@+id/Diaxor1"
+        android:layout_toStartOf="@+id/Diaxor1" />
 
 </RelativeLayout>
